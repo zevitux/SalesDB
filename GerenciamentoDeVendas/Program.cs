@@ -52,11 +52,11 @@ namespace GerenciamentoDeVendas
                         return;
                 }
 
-            }   
+            }
 
             Console.WriteLine("Press any key to back to menu");
             Console.ReadKey();
-            
+
         }
         static void ManageCustomers(CustomerDAO customerDAO)
         {
