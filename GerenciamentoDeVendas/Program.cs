@@ -11,7 +11,7 @@ namespace GerenciamentoDeVendas
         {
             string connectionString = "Data Source=localhost\\SQLEXPRESS;Database=SalesDB;Integrated Security=True;";
 
-            //instanciando
+            //instanciando 
             var customerDAO = new CustomerDAO(connectionString);
             var productDAO = new ProductDAO(connectionString);
             var orderDAO = new OrderDAO(connectionString);
